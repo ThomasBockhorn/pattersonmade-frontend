@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-container">
     <Navbar />
     <slot />
     <NuxtPage />
@@ -11,5 +11,9 @@
 </script>
 
 <style scoped>
-/* Add your layout styles here */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 </style>
