@@ -1,7 +1,4 @@
 <template>
-
-    <div style="overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-
   <HeroSection />
   <WhyChoosePattersonSection />
    <div style="align-self: stretch; padding-left: 64px; padding-right: 64px; padding-top: 112px; padding-bottom: 112px; background: var(--Color-Scheme-1-Background, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
@@ -349,7 +346,6 @@
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script setup lang="ts">
