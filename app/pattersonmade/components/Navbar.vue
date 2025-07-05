@@ -1,5 +1,4 @@
 <template>
-  <!-- Responsive Navbar -->
   <nav class="navbar">
     <div class="navbar-container">
       <div class="navbar-logo">
