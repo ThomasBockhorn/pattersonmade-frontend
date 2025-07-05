@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <img class="why-choose-img" style="flex: 1 1 0; height: 400px; border-radius: 40px" src="/public/img/computerdesk.jpg" />
+        <img class="why-choose-img" style="flex: 1 1 0; height: 400px; border-radius: 40px" src="/public/img/computerdesk.jpg" alt="An image of a computer on a desk"/>
       </div>
     </div>
   </div>

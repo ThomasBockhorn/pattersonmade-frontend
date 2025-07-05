@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <div class="navbar-logo">
-        <img src="public/img/image.png" alt="Logo" />
+        <img src="public/img/image.png" alt="Logo of PattersonMade" />
         <div class="navbar-title">
           <span class="navbar-title-small"> </span>
           <span class="navbar-title-main">PattersonMade<br/></span>
