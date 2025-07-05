@@ -26,7 +26,7 @@
   min-height: 900px;
   padding-left: 64px;
   padding-right: 64px;
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('https://placehold.co/1440x900');
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('public/img/HappyPatterson.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
