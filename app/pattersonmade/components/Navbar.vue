@@ -149,13 +149,32 @@ const isOpen = ref(false);
     transition: max-height 0.3s ease;
   }
   .navbar-link, .navbar-inquire {
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
     padding: 16px 24px;
     margin: 0;
     border-bottom: 1px solid #eee;
+    border-radius: 0;
+    outline: none;
+    display: block;
+    text-align: left;
   }
   .navbar-inquire {
     border-bottom: none;
+    background: var(--Color-Persian-Indigo, #510E72);
+    color: var(--Color-White, white);
+    margin-left: 0;
+    justify-content: flex-start;
+    border-radius: 100px;
+    outline: 1px var(--Color-Persian-Indigo, #510E72) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: calc(100vw - 48px);
+    margin: 16px 24px 0 24px;
+    box-sizing: border-box;
+    padding: 8px 20px;
   }
   .navbar-toggle {
     display: flex;
