@@ -3,7 +3,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <div class="navbar-logo">
-        <img src="https://placehold.co/53x53" alt="Logo" />
+        <img src="public/img/image.png" alt="Logo" />
         <div class="navbar-title">
           <span class="navbar-title-small"> </span>
           <span class="navbar-title-main">PattersonMade<br/></span>
