@@ -14,8 +14,8 @@
         <span class="navbar-toggle-bar"></span>
       </button>
       <div :class="['navbar-links', { open: isOpen }]">
-        <a href="#" class="navbar-link">Home Page</a>
-        <a href="#" class="navbar-link">About Us</a>
+        <NuxtLink href="/" class="navbar-link">Home Page</NuxtLink>
+        <NuxtLink href="/about" class="navbar-link">About Us</NuxtLink>
         <a href="#" class="navbar-link">Portfolio</a>
         <a href="#" class="navbar-link">Services</a>
         <a href="#" class="navbar-link">Blog</a>
@@ -26,6 +26,7 @@
 </template>
 
 <script setup lang="ts">
+import { NuxtLink } from '#components';
 import { ref } from 'vue';
 const isOpen = ref(false);
 </script>
