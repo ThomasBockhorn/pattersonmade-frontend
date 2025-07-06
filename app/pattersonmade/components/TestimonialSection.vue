@@ -65,6 +65,7 @@ const testimonials = [
   justify-content: flex-start;
   align-items: center;
   gap: 80px;
+  position: relative; /* Ensure arrows are positioned relative to this section */
 }
 .testimonial-header {
   width: 100%;

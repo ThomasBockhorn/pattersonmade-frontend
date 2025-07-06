@@ -5,49 +5,9 @@
   <CTA />
   <TestimonialSection />
   <ExploreThreeTiersSection />
+  <TurnYourVisionSection />
 
-   <div style="align-self: stretch; padding-left: 64px; padding-right: 64px; padding-top: 112px; padding-bottom: 112px; background: var(--Color-Scheme-1-Background, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
-    <div style="width: 100%; max-width: 1280px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
-      <div style="width: 768px; max-width: 768px; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 40px; font-family: Encode Sans; font-weight: 400; line-height: 48px; word-wrap: break-word">Turn your vision into reality with custom solutions and a robust web platform that enhances your digital ecosystem, featuring an integrated search engine for better discoverability and a clear sitemap for easy navigation.</div>
-      <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 64px; display: flex">
-        <div style="align-self: stretch; justify-content: center; align-items: flex-start; gap: 48px; display: inline-flex">
-          <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
-            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 48px; height: 48px; position: relative">
-                <div style="width: 40.05px; height: 41.10px; left: 3.47px; top: 3.45px; position: absolute; background: var(--Color-Scheme-1-Text, #010605)"></div>
-              </div>
-              <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-                <div style="align-self: stretch; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 24px; font-family: Encode Sans; font-weight: 400; line-height: 33.60px; word-wrap: break-word">Benefit from comprehensive marketing services designed to increase visibility and boost customer engagement across your digital ecosystem.</div>
-                <div style="align-self: stretch; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 16px; font-family: Source Sans 3; font-weight: 400; line-height: 24px; word-wrap: break-word">Enhance your brand through customized digital marketing strategies aimed at producing quantifiable outcomes. These strategies incorporate AI-powered tools that improve engagement, automate analytics, and facilitate more informed decision-making centered on conversion.</div>
-              </div>
-            </div>
-          </div>
-          <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
-            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 48px; height: 48px; position: relative">
-                <div style="width: 39.94px; height: 38.59px; left: 5.70px; top: 3.69px; position: absolute; background: var(--Color-Scheme-1-Text, #010605)"></div>
-              </div>
-              <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-                <div style="align-self: stretch; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 24px; font-family: Encode Sans; font-weight: 400; line-height: 33.60px; word-wrap: break-word">As a skilled developer, I provide custom web solutions designed to address your specific challenges and help you reach your objectives with a focus on accessibility, usability, and long-term value.</div>
-                <div style="align-self: stretch; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 16px; font-family: Source Sans 3; font-weight: 400; line-height: 24px; word-wrap: break-word">My web development approach ensures your online presence connects with your target audience and delivers meaningful outcomes that truly help businesses thrive. See my featured work for examples of how I bring brands to life online.</div>
-              </div>
-            </div>
-          </div>
-          <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
-            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 48px; height: 48px; position: relative">
-                <div style="width: 44.66px; height: 44.66px; left: 1.67px; top: 1.67px; position: absolute; background: var(--Color-Scheme-1-Text, #010605)"></div>
-              </div>
-              <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-                <div style="align-self: stretch; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 24px; font-family: Encode Sans; font-weight: 400; line-height: 33.60px; word-wrap: break-word">Whether you need to customize a layout, refine your design system, or build from scratch, I ensure your visual and technical foundations support lasting growth and an exceptional user experience.</div>
-                <div style="align-self: stretch; text-align: center; color: var(--Color-Scheme-1-Text, #010605); font-size: 16px; font-family: Source Sans 3; font-weight: 400; line-height: 24px; word-wrap: break-word">From streamlined workflows to a clean, intuitive interface, I create projects that are easy to navigate, update, and scale, with continuous performance optimization in mind.<br/><br/>I also handle smooth third-party tool integration, including AI, to enhance your platform’s functionality and engine capability.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <div style="align-self: stretch; padding-left: 64px; padding-right: 64px; padding-top: 80px; padding-bottom: 80px; background: var(--Color-Persian-Indigo, #510E72); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
     <div style="width: 100%; max-width: 1280px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 80px; display: flex">
       <div style="align-self: stretch; height: 248px; justify-content: flex-start; align-items: flex-start; gap: 128px; display: inline-flex">

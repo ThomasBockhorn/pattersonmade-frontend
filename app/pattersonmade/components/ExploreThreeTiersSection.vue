@@ -17,7 +17,8 @@
         </div>
         <div class="tier-card">
           <div class="tier-card-header">
-            <div class="tier-icon tier-icon-miniature"></div>
+            <div class="tier-icon tier-icon-miniature">
+            </div>
           </div>
           <div class="tier-card-title">Miniature Tier: Dynamic Websites with Advanced Marketing Strategies</div>
           <div class="tier-card-desc">Perfect for businesses looking to engage and grow their audience.</div>
@@ -96,45 +97,32 @@
   flex-direction: column;
   gap: 24px;
 }
+.tier-icon-toy::after,
+.tier-icon-miniature::after,
+.tier-icon-standard::after {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  background: var(--Color-White, white);
+  border-radius: 4px;
+  box-shadow: none;
+  border: none;
+}
+.tier-icon-toy::before,
+.tier-icon-miniature::before,
+.tier-icon-standard::before {
+  content: none;
+}
 .tier-icon {
   width: 48px;
   height: 48px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   background: none;
-}
-.tier-icon-toy::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 40px;
-  position: absolute;
-  left: 6px;
-  top: 4px;
-  background: var(--Color-White, white);
-  border-radius: 8px;
-}
-.tier-icon-miniature::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 40px;
-  position: absolute;
-  left: 6px;
-  top: 4px;
-  background: var(--Color-White, white);
-  border-radius: 8px 8px 0 0;
-}
-.tier-icon-standard::after {
-  content: '';
-  display: block;
-  width: 36px;
-  height: 40px;
-  position: absolute;
-  left: 6px;
-  top: 4px;
-  background: var(--Color-White, white);
-  border-radius: 100px;
 }
 .tier-card-title {
   color: var(--Color-White, white);
@@ -235,9 +223,9 @@
   .tier-icon-miniature::after,
   .tier-icon-standard::after {
     width: 28px;
-    height: 32px;
+    height: 28px;
     left: 4px;
-    top: 2px;
+    top: 4px;
   }
   .tier-link {
     font-size: 14px;
