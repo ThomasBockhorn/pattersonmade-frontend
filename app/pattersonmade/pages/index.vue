@@ -1,17 +1,8 @@
 <template>
   <HeroSection />
   <WhyChoosePattersonSection />
-   <div style="align-self: stretch; padding-left: 64px; padding-right: 64px; padding-top: 112px; padding-bottom: 112px; background: var(--Color-Scheme-1-Background, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
-    <div style="width: 100%; max-width: 1280px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 80px; display: flex">
-      <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 80px, display: inline-flex">
-        <img style="flex: 1 1 0; height: 640px; border-radius: 40px" src="https://placehold.co/600x640" />
-        <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-          <div style="align-self: stretch; color: var(--Color-Scheme-1-Text, #010605); font-size: 40px; font-family: Encode Sans; font-weight: 400; line-height: 48px; word-wrap: break-word">Transform Your Vision into Reality with Custom-Built Websites Tailored to Your Brand and Business Needs</div>
-          <div style="align-self: stretch; color: var(--Color-Scheme-1-Text, #010605); font-size: 18px; font-family: Source Sans 3; font-weight: 400; line-height: 27px; word-wrap: break-word">Whether you need a simple site, a full business platform, or a custom app, I create digital solutions that help you attract, engage, and convert your target audience effectively all supported by a streamlined workflow that keeps your project on track.</div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <TrustYourVisionSection />
+ 
   <div style="align-self: stretch; padding-left: 64px; padding-right: 64px; padding-top: 112px; padding-bottom: 112px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%); overflow: hidden; background-image: url(https://placehold.co/1440x409); flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
     <div style="width: 100%; max-width: 1280px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 80px; display: flex">
       <div style="width: 100%; max-width: 768px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
