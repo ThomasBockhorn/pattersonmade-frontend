@@ -14,12 +14,12 @@
         <span class="navbar-toggle-bar"></span>
       </button>
       <div :class="['navbar-links', { open: isOpen }]">
-        <NuxtLink href="/" class="navbar-link">Home Page</NuxtLink>
-        <NuxtLink href="/about" class="navbar-link">About Us</NuxtLink>
-        <a href="#" class="navbar-link">Portfolio</a>
-        <a href="#" class="navbar-link">Services</a>
-        <a href="#" class="navbar-link">Blog</a>
-        <a href="#" class="navbar-inquire">Inquire</a>
+        <NuxtLink href="/" class="navbar-link" @click="closeMenuOnMobile">Home Page</NuxtLink>
+        <NuxtLink href="/about" class="navbar-link" @click="closeMenuOnMobile">About Us</NuxtLink>
+        <a href="#" class="navbar-link" @click="closeMenuOnMobile">Portfolio</a>
+        <a href="#" class="navbar-link" @click="closeMenuOnMobile">Services</a>
+        <a href="#" class="navbar-link" @click="closeMenuOnMobile">Blog</a>
+        <a href="#" class="navbar-inquire" @click="closeMenuOnMobile">Inquire</a>
       </div>
     </div>
   </nav>
@@ -29,6 +29,12 @@
 import { NuxtLink } from '#components';
 import { ref } from 'vue';
 const isOpen = ref(false);
+
+function closeMenuOnMobile(e: Event) {
+  if (window.innerWidth <= 900) {
+    isOpen.value = false;
+  }
+}
 </script>
 
 <style scoped>
