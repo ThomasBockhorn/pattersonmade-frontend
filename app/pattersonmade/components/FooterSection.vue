@@ -142,9 +142,11 @@
 .footer-subscribe-form {
   display: flex;
   gap: 16px;
+  width: 100%;
 }
 .footer-input {
   flex: 1 1 0;
+  min-width: 0;
   padding: 8px 12px;
   border-radius: 12px;
   border: 1px solid var(--Color-White, white);
@@ -153,6 +155,7 @@
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
   outline: none;
+  box-sizing: border-box;
 }
 .footer-btn {
   padding: 10px 24px;
@@ -164,6 +167,7 @@
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  min-width: 100px;
 }
 .footer-subscribe-note {
   color: var(--Color-White, white);
@@ -236,10 +240,13 @@
   .footer-subscribe-form {
     flex-direction: column;
     gap: 8px;
+    width: 100%;
   }
   .footer-btn, .footer-input {
     width: 100%;
+    min-width: 0;
     font-size: 15px;
+    box-sizing: border-box;
   }
   .footer-bottom {
     gap: 8px;

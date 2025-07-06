@@ -8,7 +8,7 @@
         <div class="turn-vision-feature">
           <div class="turn-vision-feature-icon-wrap">
             <div class="turn-vision-feature-icon" style="width:48px;height:48px;position:relative;">
-              <div style="width:40.05px;height:41.10px;left:3.47px;top:3.45px;position:absolute;background:var(--Color-Scheme-1-Text,#010605);"></div>
+              <div style="width:40.05px;height:41.10px;left:3.47px;top:3.45px;position:absolute;background:var(--Color-Scheme-1-Text,#010605);border-radius:8px;"></div>
             </div>
           </div>
           <div class="turn-vision-feature-texts">
@@ -19,7 +19,7 @@
         <div class="turn-vision-feature">
           <div class="turn-vision-feature-icon-wrap">
             <div class="turn-vision-feature-icon" style="width:48px;height:48px;position:relative;">
-              <div style="width:39.94px;height:38.59px;left:5.70px;top:3.69px;position:absolute;background:var(--Color-Scheme-1-Text,#010605);"></div>
+              <div style="width:39.94px;height:38.59px;left:5.70px;top:3.69px;position:absolute;background:var(--Color-Scheme-1-Text,#010605);border-radius:8px;"></div>
             </div>
           </div>
           <div class="turn-vision-feature-texts">
@@ -30,7 +30,7 @@
         <div class="turn-vision-feature">
           <div class="turn-vision-feature-icon-wrap">
             <div class="turn-vision-feature-icon" style="width:48px;height:48px;position:relative;">
-              <div style="width:44.66px;height:44.66px;left:1.67px;top:1.67px;position:absolute;background:var(--Color-Scheme-1-Text,#010605);"></div>
+              <div style="width:44.66px;height:44.66px;left:1.67px;top:1.67px;position:absolute;background:var(--Color-Scheme-1-Text,#010605);border-radius:8px;"></div>
             </div>
           </div>
           <div class="turn-vision-feature-texts">
@@ -101,6 +101,19 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+}
+.turn-vision-feature-icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.turn-vision-feature-icon > div {
+  border-radius: 8px !important;
 }
 .turn-vision-feature-title {
   align-self: stretch;
