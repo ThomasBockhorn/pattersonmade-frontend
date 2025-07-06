@@ -255,5 +255,11 @@ const testimonials = [
   .testimonial-carousel {
     gap: 16px;
   }
+  .testimonial-card {
+    display: none;
+  }
+  .testimonial-card:first-child {
+    display: flex;
+  }
 }
 </style>

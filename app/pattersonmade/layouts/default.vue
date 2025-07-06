@@ -3,6 +3,7 @@
     <Navbar />
     <slot />
     <NuxtPage />
+    <FooterSection />
   </div>
 </template>
 

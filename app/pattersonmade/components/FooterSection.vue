@@ -1,0 +1,256 @@
+<template>
+  <div class="footer-section">
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-links">
+          <div class="footer-links-title">Quick Links</div>
+          <div class="footer-links-list">
+            <div class="footer-link">About Us</div>
+            <div class="footer-link">Our Services</div>
+            <div class="footer-link">Contact Us</div>
+            <div class="footer-link">Blog Posts</div>
+            <div class="footer-link">Client Login</div>
+          </div>
+        </div>
+        <div class="footer-social">
+          <div class="footer-links-title">Stay Connected</div>
+          <div class="footer-links-list">
+            <div class="footer-link">Facebook</div>
+            <div class="footer-link">Instagram</div>
+            <div class="footer-link">LinkedIn</div>
+          </div>
+        </div>
+        <div class="footer-newsletter">
+          <div class="footer-links-title">Newsletter</div>
+          <div class="footer-links-list">
+            <div class="footer-link">Sign Up</div>
+            <div class="footer-link">Latest News</div>
+            <div class="footer-link">Support Center</div>
+            <div class="footer-link">FAQs</div>
+            <div class="footer-link">Feedback</div>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <div class="footer-subscribe-title">Subscribe</div>
+          <div class="footer-subscribe-desc">Join our newsletter for updates on features and new releases.</div>
+          <div class="footer-subscribe-form">
+            <input class="footer-input" type="email" placeholder="Your Email" />
+            <button class="footer-btn">Subscribe</button>
+          </div>
+          <div class="footer-subscribe-note">By subscribing, you agree to our Privacy Policy and receive updates.</div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div style="height: 0px; outline: 1px var(--Color-White, white) solid; outline-offset: -0.5px"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; flex-wrap: wrap; gap: 16px 0;">
+          <div class="footer-bottom-links">
+            <div>© 2024 PattersonMade. All rights reserved.</div>
+            <div class="footer-bottom-link">Privacy Policy</div>
+            <div class="footer-bottom-link">Terms of Use</div>
+            <div class="footer-bottom-link">Cookie Settings</div>
+          </div>
+          <div class="footer-bottom-icons">
+            <div class="footer-icon"></div>
+            <div class="footer-icon"></div>
+            <div class="footer-icon"></div>
+            <div class="footer-icon"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+// No props for now
+</script>
+
+<style scoped>
+.footer-section {
+  align-self: stretch;
+  padding: 80px 64px;
+  background: var(--Color-Persian-Indigo, #510E72);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+}
+.footer-container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  gap: 128px;
+  align-items: flex-start;
+  width: 100%;
+}
+.footer-links, .footer-social, .footer-newsletter {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 120px;
+}
+.footer-links-title {
+  color: var(--Color-White, white);
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+}
+.footer-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.footer-link {
+  color: var(--Color-White, white);
+  font-size: 14px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.footer-subscribe {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-subscribe-title {
+  color: var(--Color-White, white);
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+}
+.footer-subscribe-desc {
+  color: var(--Color-White, white);
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-subscribe-form {
+  display: flex;
+  gap: 16px;
+}
+.footer-input {
+  flex: 1 1 0;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--Color-White, white);
+  background: rgba(255,255,255,0.30);
+  color: var(--Color-White, white);
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  outline: none;
+}
+.footer-btn {
+  padding: 10px 24px;
+  border-radius: 100px;
+  border: 1px solid var(--Color-White, white);
+  background: rgba(255,255,255,0.30);
+  color: var(--Color-White, white);
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-subscribe-note {
+  color: var(--Color-White, white);
+  font-size: 12px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+.footer-bottom-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: var(--Color-White, white);
+  font-size: 14px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+}
+.footer-bottom-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-bottom-icons {
+  display: flex;
+  gap: 12px;
+}
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  background: var(--Color-White, white);
+  border-radius: 4px;
+}
+@media (max-width: 1024px) {
+  .footer-main {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-subscribe {
+    width: 100%;
+  }
+  .footer-bottom-links {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-section {
+    padding: 32px 8px;
+    gap: 32px;
+  }
+  .footer-container {
+    gap: 32px;
+  }
+  .footer-main {
+    gap: 16px;
+  }
+  .footer-links, .footer-social, .footer-newsletter, .footer-subscribe {
+    min-width: 0;
+    width: 100%;
+    gap: 8px;
+  }
+  .footer-subscribe {
+    gap: 12px;
+  }
+  .footer-subscribe-form {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footer-btn, .footer-input {
+    width: 100%;
+    font-size: 15px;
+  }
+  .footer-bottom {
+    gap: 8px;
+  }
+  .footer-bottom-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .footer-bottom-icons {
+    gap: 8px;
+  }
+}
+</style>
