@@ -74,11 +74,12 @@
 .toy-tier-content-group {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 0px;
 }
 .toy-tier-label-row {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 .toy-tier-label {
   color: #010605;
