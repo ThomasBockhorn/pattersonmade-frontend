@@ -18,7 +18,7 @@
         <NuxtLink href="/about" class="navbar-link" @click="closeMenuOnMobile">About Us</NuxtLink>
         <NuxtLink href="/portfolio" class="navbar-link" @click="closeMenuOnMobile">Portfolio</NuxtLink>
         <a href="#" class="navbar-link" @click="closeMenuOnMobile">Services</a>
-        <a href="#" class="navbar-link" @click="closeMenuOnMobile">Blog</a>
+        <NuxtLink href="/blog" class="navbar-link" @click="closeMenuOnMobile">Blog</NuxtLink>
         <a href="#" class="navbar-inquire" @click="closeMenuOnMobile">Inquire</a>
       </div>
     </div>
