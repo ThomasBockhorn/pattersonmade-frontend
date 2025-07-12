@@ -19,10 +19,6 @@
   </section>
 </template>
 
-<script setup lang="ts">
-// No props for now
-</script>
-
 <style scoped>
 .dedicated-section {
   align-self: stretch;

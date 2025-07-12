@@ -11,10 +11,6 @@
   </section>
 </template>
 
-<script setup lang="ts">
-// No props for now
-</script>
-
 <style scoped>
 .about-hero-section {
   align-self: stretch;
