@@ -5,11 +5,10 @@
         <div class="footer-links">
           <div class="footer-links-title">Quick Links</div>
           <div class="footer-links-list">
-            <a class="footer-link" href="#">About Us</a>
+            <NuxtLink class="footer-link" href="/about">About Us</NuxtLink>
             <a class="footer-link" href="#">Our Services</a>
             <a class="footer-link" href="#">Contact Us</a>
             <a class="footer-link" href="#">Blog Posts</a>
-            <a class="footer-link" href="#">Client Login</a>
           </div>
         </div>
         <div class="footer-social">
@@ -34,8 +33,10 @@
           <div class="footer-subscribe-title">Subscribe</div>
           <div class="footer-subscribe-desc">Join our newsletter for updates on features and new releases.</div>
           <div class="footer-subscribe-form">
-            <label for="footer-email" class="visually-hidden">Email address</label>
-            <input id="footer-email" class="footer-input" type="email" placeholder="Your Email" />
+            <div style="position: relative; width: 100%;">
+              <input id="footer-email" class="footer-input" type="email" placeholder="Your Email" />
+              <label for="footer-email" class="footer-input-label">Email address</label>
+            </div>
             <button class="footer-btn">Subscribe</button>
           </div>
           <div class="footer-subscribe-note">By subscribing, you agree to our Privacy Policy and receive updates.</div>
@@ -146,7 +147,7 @@
   width: 100%;
 }
 .footer-input {
-  flex: 1 1 0;
+  flex: 2 1 0;
   min-width: 0;
   padding: 8px 12px;
   border-radius: 12px;
@@ -157,6 +158,23 @@
   font-family: 'Source Sans 3', sans-serif;
   outline: none;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+}
+.footer-input-label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 14px;
+  font-family: 'Source Sans 3', sans-serif;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.footer-input:focus + .footer-input-label,
+.footer-input:not(:placeholder-shown) + .footer-input-label {
+  display: none;
 }
 .footer-btn {
   padding: 10px 24px;
@@ -169,6 +187,10 @@
   font-weight: 500;
   cursor: pointer;
   min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .footer-subscribe-note {
   color: var(--Color-White, white);
@@ -248,6 +270,7 @@
     min-width: 0;
     font-size: 15px;
     box-sizing: border-box;
+    max-width: 100%;
   }
   .footer-bottom {
     gap: 8px;
