@@ -2,7 +2,7 @@
   <div class="trust-section">
     <div class="trust-section-inner">
       <div class="trust-flex">
-        <img class="trust-img" src="public/img/webplans.jpg" alt="image of web design plans"/>
+        <img class="trust-img" src="/img/webplans.jpg" alt="image of web design plans"/>
         <div class="trust-content">
           <div class="trust-title">Transform Your Vision into Reality with Custom-Built Websites Tailored to Your Brand and Business Needs</div>
           <div class="trust-desc">Whether you need a simple site, a full business platform, or a custom app, I create digital solutions that help you attract, engage, and convert your target audience effectively all supported by a streamlined workflow that keeps your project on track.</div>
