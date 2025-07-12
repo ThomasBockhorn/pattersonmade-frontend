@@ -16,7 +16,7 @@
       <div :class="['navbar-links', { open: isOpen }]">
         <NuxtLink href="/" class="navbar-link" @click="closeMenuOnMobile">Home Page</NuxtLink>
         <NuxtLink href="/about" class="navbar-link" @click="closeMenuOnMobile">About Us</NuxtLink>
-        <a href="#" class="navbar-link" @click="closeMenuOnMobile">Portfolio</a>
+        <NuxtLink href="/portfolio" class="navbar-link" @click="closeMenuOnMobile">Portfolio</NuxtLink>
         <a href="#" class="navbar-link" @click="closeMenuOnMobile">Services</a>
         <a href="#" class="navbar-link" @click="closeMenuOnMobile">Blog</a>
         <a href="#" class="navbar-inquire" @click="closeMenuOnMobile">Inquire</a>
