@@ -1,56 +1,56 @@
 <template>
-  <section class="testimonials-section">
+  <section class="testimonials-section" aria-labelledby="testimonials-title">
     <div class="testimonials-container">
-      <div class="testimonials-header">
-        <h2 class="testimonials-title">Client Testimonials</h2>
+      <header class="testimonials-header">
+        <h2 id="testimonials-title" class="testimonials-title">Client Testimonials</h2>
         <p class="testimonials-desc">PattersonMade transformed our online presence completely!</p>
-      </div>
+      </header>
       <div class="testimonials-list">
         <!-- Testimonial 1 -->
-        <div class="testimonial">
-          <div class="testimonial-stars">
-            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        <article class="testimonial">
+          <div class="testimonial-stars" aria-label="5 star rating">
+            <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
           </div>
-          <div class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</div>
-          <div class="testimonial-person">
+          <blockquote class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+          <footer class="testimonial-person">
             <img class="testimonial-avatar" src="https://placehold.co/56x56" alt="Jane Doe avatar" />
             <div class="testimonial-person-info">
-              <div class="testimonial-name">Jane Doe</div>
-              <div class="testimonial-role">CEO, Artistry Co.</div>
+              <span class="testimonial-name">Jane Doe</span>
+              <span class="testimonial-role">CEO, Artistry Co.</span>
             </div>
-            <span class="testimonial-logo"></span>
-          </div>
-        </div>
+            <span class="testimonial-logo" aria-hidden="true"></span>
+          </footer>
+        </article>
         <!-- Testimonial 2 -->
-        <div class="testimonial">
-          <div class="testimonial-stars">
-            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        <article class="testimonial">
+          <div class="testimonial-stars" aria-label="5 star rating">
+            <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
           </div>
-          <div class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</div>
-          <div class="testimonial-person">
+          <blockquote class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+          <footer class="testimonial-person">
             <img class="testimonial-avatar" src="https://placehold.co/56x56" alt="John Smith avatar" />
             <div class="testimonial-person-info">
-              <div class="testimonial-name">John Smith</div>
-              <div class="testimonial-role">Founder, Tech Innovations</div>
+              <span class="testimonial-name">John Smith</span>
+              <span class="testimonial-role">Founder, Tech Innovations</span>
             </div>
-            <span class="testimonial-logo"></span>
-          </div>
-        </div>
+            <span class="testimonial-logo" aria-hidden="true"></span>
+          </footer>
+        </article>
         <!-- Testimonial 3 -->
-        <div class="testimonial">
-          <div class="testimonial-stars">
-            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        <article class="testimonial">
+          <div class="testimonial-stars" aria-label="5 star rating">
+            <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
           </div>
-          <div class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</div>
-          <div class="testimonial-person">
+          <blockquote class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+          <footer class="testimonial-person">
             <img class="testimonial-avatar" src="https://placehold.co/56x56" alt="Name Surname avatar" />
             <div class="testimonial-person-info">
-              <div class="testimonial-name">Name Surname</div>
-              <div class="testimonial-role">Position, Company name</div>
+              <span class="testimonial-name">Name Surname</span>
+              <span class="testimonial-role">Position, Company name</span>
             </div>
-            <span class="testimonial-logo"></span>
-          </div>
-        </div>
+            <span class="testimonial-logo" aria-hidden="true"></span>
+          </footer>
+        </article>
       </div>
     </div>
   </section>

@@ -1,14 +1,14 @@
 <template>
-  <section class="cta2-section">
+  <section class="cta2-section" aria-labelledby="cta2-title">
     <div class="cta2-container">
       <div class="cta2-bg">
         <div class="cta2-content">
           <div class="cta2-text-group">
-            <h2 class="cta2-title">Let’s Create Something Amazing</h2>
+            <h2 id="cta2-title" class="cta2-title">Let’s Create Something Amazing</h2>
             <p class="cta2-desc">Have questions or want to discuss your project? We're here to help you every step.</p>
           </div>
           <div class="cta2-actions">
-            <button class="cta2-btn">Contact</button>
+            <button class="cta2-btn" type="button" aria-label="Contact PattersonMade">Contact</button>
           </div>
         </div>
       </div>

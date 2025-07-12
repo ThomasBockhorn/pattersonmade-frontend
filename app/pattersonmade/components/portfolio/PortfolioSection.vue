@@ -1,66 +1,66 @@
 <template>
-  <section class="portfolio-section">
+  <section class="portfolio-section" aria-labelledby="portfolio-section-title">
     <div class="portfolio-section-container">
-      <div class="portfolio-section-header">
-        <div class="portfolio-section-label">Portfolio</div>
+      <header class="portfolio-section-header">
+        <span class="portfolio-section-label">Portfolio</span>
         <div class="portfolio-section-title-group">
-          <h2 class="portfolio-section-title">Our Creative Showcase</h2>
+          <h2 id="portfolio-section-title" class="portfolio-section-title">Our Creative Showcase</h2>
           <p class="portfolio-section-desc">Explore our diverse range of projects</p>
         </div>
-      </div>
+      </header>
       <div class="portfolio-section-projects">
         <div class="portfolio-section-project-row">
           <!-- Project 1 -->
-          <div class="portfolio-project">
-            <img class="portfolio-project-img" src="https://placehold.co/405x228" alt="Artistic Web Design screenshot" />
+          <article class="portfolio-project">
+            <img class="portfolio-project-img" src="https://placehold.co/405x228" alt="Screenshot of Artistic Web Design project" />
             <div class="portfolio-project-content">
-              <div class="portfolio-project-title">Artistic Web Design</div>
-              <div class="portfolio-project-desc">A visually stunning site that captures the essence of creativity.</div>
-              <div class="portfolio-project-tags">
-                <span class="portfolio-project-tag">Web Design</span>
-                <span class="portfolio-project-tag">Creative Solutions</span>
-                <span class="portfolio-project-tag">Responsive Design</span>
-              </div>
-              <a class="portfolio-project-link" href="#">
+              <h3 class="portfolio-project-title">Artistic Web Design</h3>
+              <p class="portfolio-project-desc">A visually stunning site that captures the essence of creativity.</p>
+              <ul class="portfolio-project-tags" aria-label="Project tags">
+                <li class="portfolio-project-tag">Web Design</li>
+                <li class="portfolio-project-tag">Creative Solutions</li>
+                <li class="portfolio-project-tag">Responsive Design</li>
+              </ul>
+              <a class="portfolio-project-link" href="#" aria-label="View Artistic Web Design project">
                 View project
                 <span class="portfolio-project-link-icon" aria-hidden="true"></span>
               </a>
             </div>
-          </div>
+          </article>
           <!-- Project 2 -->
-          <div class="portfolio-project">
-            <img class="portfolio-project-img" src="https://placehold.co/405x228" alt="E-Commerce Excellence screenshot" />
+          <article class="portfolio-project">
+            <img class="portfolio-project-img" src="https://placehold.co/405x228" alt="Screenshot of E-Commerce Excellence project" />
             <div class="portfolio-project-content">
-              <div class="portfolio-project-title">E-Commerce Excellence</div>
-              <div class="portfolio-project-desc">An online store that enhances user experience and drives sales.</div>
-              <div class="portfolio-project-tags">
-                <span class="portfolio-project-tag">E-Commerce</span>
-                <span class="portfolio-project-tag">User Friendly</span>
-                <span class="portfolio-project-tag">Fast Loading</span>
-              </div>
-              <a class="portfolio-project-link" href="#">
+              <h3 class="portfolio-project-title">E-Commerce Excellence</h3>
+              <p class="portfolio-project-desc">An online store that enhances user experience and drives sales.</p>
+              <ul class="portfolio-project-tags" aria-label="Project tags">
+                <li class="portfolio-project-tag">E-Commerce</li>
+                <li class="portfolio-project-tag">User Friendly</li>
+                <li class="portfolio-project-tag">Fast Loading</li>
+              </ul>
+              <a class="portfolio-project-link" href="#" aria-label="View E-Commerce Excellence project">
                 View project
                 <span class="portfolio-project-link-icon" aria-hidden="true"></span>
               </a>
             </div>
-          </div>
+          </article>
           <!-- Project 3 -->
-          <div class="portfolio-project">
-            <img class="portfolio-project-img" src="https://placehold.co/405x228" alt="Project name here screenshot" />
+          <article class="portfolio-project">
+            <img class="portfolio-project-img" src="https://placehold.co/405x228" alt="Screenshot of Project name here" />
             <div class="portfolio-project-content">
-              <div class="portfolio-project-title">Project name here</div>
-              <div class="portfolio-project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-              <div class="portfolio-project-tags">
-                <span class="portfolio-project-tag">Tag one</span>
-                <span class="portfolio-project-tag">Tag two</span>
-                <span class="portfolio-project-tag">Tag three</span>
-              </div>
-              <a class="portfolio-project-link" href="#">
+              <h3 class="portfolio-project-title">Project name here</h3>
+              <p class="portfolio-project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <ul class="portfolio-project-tags" aria-label="Project tags">
+                <li class="portfolio-project-tag">Tag one</li>
+                <li class="portfolio-project-tag">Tag two</li>
+                <li class="portfolio-project-tag">Tag three</li>
+              </ul>
+              <a class="portfolio-project-link" href="#" aria-label="View Project name here">
                 View project
                 <span class="portfolio-project-link-icon" aria-hidden="true"></span>
               </a>
             </div>
-          </div>
+          </article>
         </div>
         <div class="portfolio-section-viewall">
           <a class="portfolio-section-viewall-btn" href="#">View all</a>

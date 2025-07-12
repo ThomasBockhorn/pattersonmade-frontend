@@ -1,16 +1,16 @@
 <template>
-  <section class="portfolio-header-section">
+  <section class="portfolio-header-section" aria-labelledby="portfolio-header-title">
     <div class="portfolio-header-container">
       <div class="portfolio-header-content">
-        <h1 class="portfolio-header-title">Creative Web Solutions</h1>
+        <h1 id="portfolio-header-title" class="portfolio-header-title">Creative Web Solutions</h1>
         <p class="portfolio-header-desc">
           Explore our diverse portfolio showcasing unique projects that highlight our commitment to quality.
         </p>
-        <div class="portfolio-header-tags">
-          <span class="portfolio-header-tag">Web Design</span>
-          <span class="portfolio-header-tag">E-commerce</span>
-          <span class="portfolio-header-tag">Brand Identity</span>
-        </div>
+        <ul class="portfolio-header-tags" aria-label="Portfolio categories">
+          <li class="portfolio-header-tag">Web Design</li>
+          <li class="portfolio-header-tag">E-commerce</li>
+          <li class="portfolio-header-tag">Brand Identity</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -65,6 +65,9 @@
   word-wrap: break-word;
 }
 .portfolio-header-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   align-self: stretch;
   display: flex;
   justify-content: center;
