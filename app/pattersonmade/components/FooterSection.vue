@@ -5,6 +5,7 @@
         <div class="footer-links">
           <div class="footer-links-title">Quick Links</div>
           <div class="footer-links-list">
+            <NuxtLink class="footer-link" href="/">Home Page</NuxtLink>
             <NuxtLink class="footer-link" href="/about">About Us</NuxtLink>
             <a class="footer-link" href="#">Our Services</a>
             <a class="footer-link" href="#">Contact Us</a>
