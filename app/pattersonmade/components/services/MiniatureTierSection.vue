@@ -2,11 +2,6 @@
   <section class="miniature-tier-section">
     <div class="miniature-tier-container">
       <div class="miniature-tier-content">
-        <img
-          class="miniature-tier-image"
-          src="https://placehold.co/600x640"
-          alt="Miniature Tier website preview"
-        />
         <div class="miniature-tier-text">
           <div class="miniature-tier-header">
             <div class="miniature-tier-label">Miniature</div>
@@ -36,6 +31,11 @@
             </li>
           </ul>
         </div>
+        <img
+          class="miniature-tier-image"
+          src="https://placehold.co/600x640"
+          alt="Miniature Tier website preview"
+        />
       </div>
     </div>
   </section>
@@ -168,8 +168,8 @@
 }
 
 @media (max-width: 900px) {
-  .miniature-tier-section__content {
-    flex-direction: column;
+  .miniature-tier-content {
+    flex-direction: column-reverse;
   }
 }
 
@@ -181,10 +181,6 @@
   .miniature-tier-container {
     gap: 32px;
  }
-  .miniature-tier-content {
-     flex-direction: column;
-    gap: 32px;
-    }
   .miniature-tier-image {
     height: 240px;
     max-width: 100%;
