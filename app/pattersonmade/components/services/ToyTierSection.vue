@@ -2,6 +2,7 @@
   <section class="toy-tier-section">
     <div class="toy-tier-container">
       <div class="toy-tier-flex">
+        <img class="toy-tier-img" src="https://placehold.co/600x640" alt="Toy Tier website example" />
         <div class="toy-tier-content">
           <div class="toy-tier-content-group">
             <div class="toy-tier-label-row">
@@ -27,7 +28,6 @@
             </div>
           </div>
         </div>
-        <img class="toy-tier-img" src="https://placehold.co/600x640" alt="Toy Tier website example" />
       </div>
     </div>
   </section>
@@ -41,7 +41,7 @@
 .toy-tier-section {
   align-self: stretch;
   padding: 112px 64px;
-  background: white;
+  background: #fff;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -50,13 +50,13 @@
   gap: 80px;
 }
 .toy-tier-container {
-  width: 100%;
+   width: 100%;
   max-width: 1280px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 80px;
 }
+
 .toy-tier-flex {
   align-self: stretch;
   display: flex;
@@ -87,11 +87,7 @@
   font-weight: 600;
   line-height: 24px;
 }
-.toy-tier-title-group {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
+
 .toy-tier-title {
   color: #010605;
   font-size: 48px;

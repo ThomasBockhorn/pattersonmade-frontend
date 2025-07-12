@@ -2,6 +2,11 @@
   <section class="standard-tier-section">
     <div class="standard-tier-section__container">
       <div class="standard-tier-section__content">
+        <img
+          class="standard-tier-section__image"
+          src="https://placehold.co/600x640"
+          alt="Standard Tier Example"
+        />
         <div class="standard-tier-section__text">
           <div class="standard-tier-section__text-inner">
             <div class="standard-tier-section__header">
@@ -37,11 +42,6 @@
             </li>
           </ul>
         </div>
-        <img
-          class="standard-tier-section__image"
-          src="https://placehold.co/600x640"
-          alt="Standard Tier Example"
-        />
       </div>
     </div>
   </section>
@@ -188,6 +188,12 @@
   }
   .standard-tier-section__title {
     font-size: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .standard-tier-section__content {
+    flex-direction: column;
   }
 }
 

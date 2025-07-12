@@ -47,12 +47,15 @@
 
 <style scoped>
 .miniature-tier-section {
-  width: 100%;
-  background: #fff;
+  align-self: stretch;
   padding: 112px 64px;
+  background: #fff;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  gap: 80px;
 }
 
 .miniature-tier-container {
@@ -73,9 +76,10 @@
 .miniature-tier-image {
   flex: 1 1 0;
   height: 640px;
-  max-width: 100%;
   border-radius: 40px;
   object-fit: cover;
+  width: 100%;
+  max-width: 600px;
 }
 
 .miniature-tier-text {
@@ -88,7 +92,7 @@
 .miniature-tier-header {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 25px;
 }
 
 .miniature-tier-label {
@@ -145,40 +149,49 @@
 
 @media (max-width: 1024px) {
   .miniature-tier-section {
-    padding: 80px 32px;
+    padding: 80px 24px;
+    gap: 48px;
   }
-  .miniature-tier-content {
-    gap: 40px;
+  .miniature-tier-section__container {
+    gap: 48px;
+  }
+  .miniature-tier-section__content {
+    gap: 32px;
+  }
+  .miniature-tier-section__image {
+    height: 400px;
+    max-width: 400px;
+  }
+  .miniature-tier-section__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .miniature-tier-section__content {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 768px) {
   .miniature-tier-section {
-    padding: 56px 16px;
-  }
-  .miniature-tier-content {
-    flex-direction: column;
+    padding: 48px 8px;
     gap: 32px;
   }
+  .miniature-tier-container {
+    gap: 32px;
+ }
+  .miniature-tier-content {
+     flex-direction: column;
+    gap: 32px;
+    }
   .miniature-tier-image {
-    height: 320px;
+    height: 240px;
+    max-width: 100%;
     border-radius: 24px;
   }
   .miniature-tier-title {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 480px) {
-  .miniature-tier-section {
-    padding: 32px 4px;
-  }
-  .miniature-tier-title {
     font-size: 24px;
-  }
-  .miniature-tier-image {
-    height: 180px;
-    border-radius: 16px;
   }
 }
 </style>
