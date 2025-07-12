@@ -1,20 +1,20 @@
 <template>
-  <section class="blog-section">
+  <section class="blog-section" aria-labelledby="blog-title">
     <div class="blog-container">
-      <div class="blog-header">
+      <header class="blog-header">
         <span class="blog-label">Blog</span>
         <div class="blog-title-group">
-          <h1 class="blog-title">Explore Our Latest Insights</h1>
+          <h1 id="blog-title" class="blog-title">Explore Our Latest Insights</h1>
           <p class="blog-desc">Discover tips, trends, and stories from our community.</p>
         </div>
-      </div>
-      <div class="blog-categories">
-        <button class="blog-category blog-category-active">View all</button>
-        <button class="blog-category">Web Development</button>
-        <button class="blog-category">Digital Marketing</button>
-        <button class="blog-category">Client Stories</button>
-        <button class="blog-category">Industry Insights</button>
-      </div>
+      </header>
+      <nav class="blog-categories" aria-label="Blog categories">
+        <button class="blog-category blog-category-active" type="button">View all</button>
+        <button class="blog-category" type="button">Web Development</button>
+        <button class="blog-category" type="button">Digital Marketing</button>
+        <button class="blog-category" type="button">Client Stories</button>
+        <button class="blog-category" type="button">Industry Insights</button>
+      </nav>
       <div class="blog-list">
         <article class="blog-card">
           <img class="blog-card-img" src="https://placehold.co/405x270" alt="Crafting Websites with Heart" />
@@ -25,7 +25,7 @@
             </div>
             <h2 class="blog-card-title">Crafting Websites with Heart</h2>
             <p class="blog-card-desc">Explore how we blend creativity and technology for impactful websites.</p>
-            <a class="blog-card-link" href="#">
+            <a class="blog-card-link" href="#" aria-label="Read more about Crafting Websites with Heart">
               Read more
               <span class="blog-card-link-icon" aria-hidden="true"></span>
             </a>
@@ -40,7 +40,7 @@
             </div>
             <h2 class="blog-card-title">The Power of Custom Solutions</h2>
             <p class="blog-card-desc">Why tailored websites outperform generic templates in today's digital landscape.</p>
-            <a class="blog-card-link" href="#">
+            <a class="blog-card-link" href="#" aria-label="Read more about The Power of Custom Solutions">
               Read more
               <span class="blog-card-link-icon" aria-hidden="true"></span>
             </a>
@@ -55,7 +55,7 @@
             </div>
             <h2 class="blog-card-title">Boosting Your Online Presence</h2>
             <p class="blog-card-desc">Strategies to enhance visibility and engage your audience effectively.</p>
-            <a class="blog-card-link" href="#">
+            <a class="blog-card-link" href="#" aria-label="Read more about Boosting Your Online Presence">
               Read more
               <span class="blog-card-link-icon" aria-hidden="true"></span>
             </a>
@@ -70,7 +70,7 @@
             </div>
             <h2 class="blog-card-title">Client Success Stories</h2>
             <p class="blog-card-desc">Real experiences that showcase our commitment to client satisfaction.</p>
-            <a class="blog-card-link" href="#">
+            <a class="blog-card-link" href="#" aria-label="Read more about Client Success Stories">
               Read more
               <span class="blog-card-link-icon" aria-hidden="true"></span>
             </a>
@@ -85,7 +85,7 @@
             </div>
             <h2 class="blog-card-title">Emerging Trends in Web Development</h2>
             <p class="blog-card-desc">Stay ahead of the curve with the latest industry developments.</p>
-            <a class="blog-card-link" href="#">
+            <a class="blog-card-link" href="#" aria-label="Read more about Emerging Trends in Web Development">
               Read more
               <span class="blog-card-link-icon" aria-hidden="true"></span>
             </a>
@@ -100,7 +100,7 @@
             </div>
             <h2 class="blog-card-title">Effective Digital Marketing Strategies</h2>
             <p class="blog-card-desc">Learn how to maximize your online marketing efforts for better results.</p>
-            <a class="blog-card-link" href="#">
+            <a class="blog-card-link" href="#" aria-label="Read more about Effective Digital Marketing Strategies">
               Read more
               <span class="blog-card-link-icon" aria-hidden="true"></span>
             </a>
