@@ -16,7 +16,3 @@ import CTA from '../components/CTA.vue';
 import TestimonialSection from '../components/main/TestimonialSection.vue';
 import ExploreThreeTiersSection from '../components/main/ExploreThreeTiersSection.vue';
 </script>
-
-<style scoped>
-/* Add page-specific styles here */
-</style>
