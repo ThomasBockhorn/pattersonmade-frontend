@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <div class="navbar-logo">
-        <img src="public/img/image.png" alt="Logo of PattersonMade" />
+        <img src="/img/image.png" alt="Logo of PattersonMade" />
         <div class="navbar-title">
           <span class="navbar-title-small"> </span>
           <span class="navbar-title-main">PattersonMade<br/></span>
@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { NuxtLink } from '#components';
+// No import for NuxtLink needed; Nuxt auto-imports it. Tests should stub NuxtLink.
 import { ref } from 'vue';
 const isOpen = ref(false);
 

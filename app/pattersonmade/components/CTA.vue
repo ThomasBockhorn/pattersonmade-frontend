@@ -31,7 +31,7 @@
   padding-bottom: 112px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
   overflow: hidden;
-  background-image: url('public/img/artistspace.jpg');
+  background-image: url('/img/artistspace.jpg');
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
