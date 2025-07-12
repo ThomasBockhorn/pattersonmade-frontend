@@ -122,9 +122,13 @@
     align-items: flex-start;
   }
   .dedicated-img {
+    order: 2;
     height: 320px;
     max-width: 100%;
     border-radius: 24px;
+  }
+  .dedicated-content {
+    order: 1;
   }
   .dedicated-title {
     font-size: 32px;
