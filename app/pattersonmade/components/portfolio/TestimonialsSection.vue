@@ -5,59 +5,94 @@
         <h2 id="testimonials-title" class="testimonials-title">Client Testimonials</h2>
         <p class="testimonials-desc">PattersonMade transformed our online presence completely!</p>
       </header>
-      <div class="testimonials-list">
-        <!-- Testimonial 1 -->
-        <article class="testimonial">
-          <div class="testimonial-stars" aria-label="5 star rating">
-            <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
-          </div>
-          <blockquote class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
-          <footer class="testimonial-person">
-            <img class="testimonial-avatar" src="https://placehold.co/56x56" alt="Jane Doe avatar" />
-            <div class="testimonial-person-info">
-              <span class="testimonial-name">Jane Doe</span>
-              <span class="testimonial-role">CEO, Artistry Co.</span>
+      <div class="testimonials-list" :class="{ 'is-slider': isMobile }">
+        <template v-if="isMobile">
+          <article class="testimonial" v-for="(testimonial, idx) in [testimonials[currentIndex]]" :key="testimonial.name">
+            <div class="testimonial-stars" aria-label="5 star rating">
+              <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
             </div>
-            <span class="testimonial-logo" aria-hidden="true"></span>
-          </footer>
-        </article>
-        <!-- Testimonial 2 -->
-        <article class="testimonial">
-          <div class="testimonial-stars" aria-label="5 star rating">
-            <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
+            <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
+            <footer class="testimonial-person">
+              <img class="testimonial-avatar" :src="testimonial.avatar" :alt="testimonial.name + ' avatar'" />
+              <div class="testimonial-person-info">
+                <span class="testimonial-name">{{ testimonial.name }}</span>
+                <span class="testimonial-role">{{ testimonial.role }}</span>
+              </div>
+              <span class="testimonial-logo" aria-hidden="true"></span>
+            </footer>
+          </article>
+          <div class="testimonial-slider-controls">
+            <button class="slider-btn" @click="prevTestimonial" :disabled="currentIndex === 0" aria-label="Previous testimonial">&#8592;</button>
+            <span class="slider-indicator">{{ currentIndex + 1 }} / {{ testimonials.length }}</span>
+            <button class="slider-btn" @click="nextTestimonial" :disabled="currentIndex === testimonials.length - 1" aria-label="Next testimonial">&#8594;</button>
           </div>
-          <blockquote class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
-          <footer class="testimonial-person">
-            <img class="testimonial-avatar" src="https://placehold.co/56x56" alt="John Smith avatar" />
-            <div class="testimonial-person-info">
-              <span class="testimonial-name">John Smith</span>
-              <span class="testimonial-role">Founder, Tech Innovations</span>
+        </template>
+        <template v-else>
+          <article class="testimonial" v-for="testimonial in testimonials" :key="testimonial.name">
+            <div class="testimonial-stars" aria-label="5 star rating">
+              <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
             </div>
-            <span class="testimonial-logo" aria-hidden="true"></span>
-          </footer>
-        </article>
-        <!-- Testimonial 3 -->
-        <article class="testimonial">
-          <div class="testimonial-stars" aria-label="5 star rating">
-            <span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span><span class="star" aria-hidden="true"></span>
-          </div>
-          <blockquote class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
-          <footer class="testimonial-person">
-            <img class="testimonial-avatar" src="https://placehold.co/56x56" alt="Name Surname avatar" />
-            <div class="testimonial-person-info">
-              <span class="testimonial-name">Name Surname</span>
-              <span class="testimonial-role">Position, Company name</span>
-            </div>
-            <span class="testimonial-logo" aria-hidden="true"></span>
-          </footer>
-        </article>
+            <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
+            <footer class="testimonial-person">
+              <img class="testimonial-avatar" :src="testimonial.avatar" :alt="testimonial.name + ' avatar'" />
+              <div class="testimonial-person-info">
+                <span class="testimonial-name">{{ testimonial.name }}</span>
+                <span class="testimonial-role">{{ testimonial.role }}</span>
+              </div>
+              <span class="testimonial-logo" aria-hidden="true"></span>
+            </footer>
+          </article>
+        </template>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-// No props for now
+import { ref, onMounted, onUnmounted } from 'vue';
+
+const testimonials = [
+  {
+    name: 'Jane Doe',
+    role: 'CEO, Artistry Co.',
+    avatar: 'https://placehold.co/56x56',
+    quote: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."',
+  },
+  {
+    name: 'John Smith',
+    role: 'Founder, Tech Innovations',
+    avatar: 'https://placehold.co/56x56',
+    quote: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."',
+  },
+  {
+    name: 'Name Surname',
+    role: 'Position, Company name',
+    avatar: 'https://placehold.co/56x56',
+    quote: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."',
+  },
+];
+
+const isMobile = ref(false);
+const currentIndex = ref(0);
+
+function checkMobile() {
+  isMobile.value = window.innerWidth <= 600;
+}
+
+function nextTestimonial() {
+  if (currentIndex.value < testimonials.length - 1) currentIndex.value++;
+}
+function prevTestimonial() {
+  if (currentIndex.value > 0) currentIndex.value--;
+}
+
+onMounted(() => {
+  checkMobile();
+  window.addEventListener('resize', checkMobile);
+});
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile);
+});
 </script>
 
 <style scoped>
@@ -176,6 +211,33 @@
   margin-top: 8px;
   position: relative;
 }
+.testimonial-slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.slider-btn {
+  background: #510E72;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 8px 16px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.slider-btn:disabled {
+  background: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+}
+.slider-indicator {
+  color: #010605;
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+}
 @media (max-width: 900px) {
   .testimonials-section {
     padding: 64px 24px;
@@ -217,6 +279,13 @@
   .testimonial-logo {
     width: 80px;
     height: 32px;
+  }
+  .testimonials-list {
+    flex-direction: column;
+    gap: 0;
+  }
+  .testimonial {
+    max-width: 100%;
   }
 }
 </style>
