@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
-import StandardTierSection from '~/components/services/StandardTierSection.vue';
+import StandardTierSection from '../../../components/services/StandardTierSection.vue';
 
 describe('StandardTierSection', () => {
   it('renders the StandardTierSection component', () => {

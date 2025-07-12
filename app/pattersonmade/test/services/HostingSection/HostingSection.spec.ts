@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
-import HostingSection from '~/components/services/HostingSection.vue';
+import HostingSection from '../../../components/services/HostingSection.vue';
 
 describe('HostingSection', () => {
   it('renders the HostingSection component', () => {

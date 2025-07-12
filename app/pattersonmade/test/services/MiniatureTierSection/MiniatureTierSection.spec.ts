@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
-import MiniatureTierSection from '~/components/services/MiniatureTierSection.vue';
+import MiniatureTierSection from '../../../components/services/MiniatureTierSection.vue';
 
 describe('MiniatureTierSection', () => {
   it('renders the MiniatureTierSection component', () => {

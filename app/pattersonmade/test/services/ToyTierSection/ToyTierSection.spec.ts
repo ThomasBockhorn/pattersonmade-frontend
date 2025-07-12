@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
-import ToyTierSection from '~/components/services/ToyTierSection.vue';
+import ToyTierSection from '../../../components/services/ToyTierSection.vue';
 
 describe('ToyTierSection', () => {
   it('renders the ToyTierSection component', () => {
