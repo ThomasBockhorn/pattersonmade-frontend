@@ -1,5 +1,6 @@
 import { mount } from '@vue/test-utils';
 import AboutHeroSection from '../../components/about/AboutHeroSection.vue';
+import { describe, expect, it } from 'vitest';
 
 describe('AboutHeroSection', () => {
   it('renders the hero title and description', () => {

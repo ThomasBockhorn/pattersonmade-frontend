@@ -1,5 +1,6 @@
 import { mount } from '@vue/test-utils';
 import DedicatedSection from '../../components/about/DedicatedSection.vue';
+import { describe, expect, it } from 'vitest';
 
 describe('DedicatedSection', () => {
   it('renders the dedicated section title and description', () => {
