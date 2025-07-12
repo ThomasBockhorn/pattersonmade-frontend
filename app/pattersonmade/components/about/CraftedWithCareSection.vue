@@ -5,13 +5,13 @@
         <div class="crafted-content">
           <div class="crafted-text-group">
             <div class="crafted-icon-wrap">
-              <div class="crafted-icon"></div>
+              <div class="crafted-icon" aria-hidden="true"></div>
             </div>
             <div class="crafted-title-group">
-              <div class="crafted-title">Crafted With Care: Get to Know the Developer Behind PattersonMade</div>
-              <div class="crafted-desc">
+              <h2 class="crafted-title">Crafted With Care: Get to Know the Developer Behind PattersonMade</h2>
+              <p class="crafted-desc">
                 At PattersonMade, I specialize as a custom web designer and web developer, creating unique websites and apps that reflect your brand and business goals. With a degree in computer science and a profound passion for web development, I bring a strong foundation in technology and a deep commitment to crafting tailored digital solutions that cater to your specific needs. My journey began with an early love for technology, sparked by curiosity about how digital systems work and a genuine desire to help others express their unique stories online. Over the years, I’ve mastered technologies like HTML, CSS, JavaScript, PHP, Laravel, MySQL, PostgreSQL, and Vue—writing clean, efficient code to build and optimize your online presence. This technical expertise is paired with a thoughtful approach to user experience and design, allowing me to create websites that are not only high-performing but also visually appealing, intuitive, and truly representative of your vision.
-              </div>
+              </p>
             </div>
           </div>
         </div>

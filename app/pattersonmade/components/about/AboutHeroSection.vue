@@ -1,10 +1,12 @@
 <template>
   <section class="about-hero-section">
     <div class="about-hero-container">
-      <div class="about-hero-title">Crafted with Heart</div>
-      <div class="about-hero-desc">
+      <h2 class="about-hero-title">
+        Crafted with Heart
+      </h2>
+      <p class="about-hero-desc">
         At PattersonMade, we create websites that reflect your unique identity and values with care.
-      </div>
+      </p>
     </div>
   </section>
 </template>

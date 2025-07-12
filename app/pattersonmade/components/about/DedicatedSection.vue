@@ -5,13 +5,13 @@
         <img class="dedicated-img" src="https://placehold.co/600x640" alt="Dedicated to your online presence" />
         <div class="dedicated-content">
           <div class="dedicated-label-row">
-            <div class="dedicated-label">Crafted</div>
+            <span class="dedicated-label">Crafted</span>
           </div>
           <div class="dedicated-text-group">
-            <div class="dedicated-title">Dedicated to Your Unique Online Presence</div>
-            <div class="dedicated-desc">
-              At PattersonMade, I firmly believe that every website should reflect the distinct individuality and personality of its owner.  My unwavering commitment to creating custom-built solutions means that your online presence will be as unique and tailored to you as you are. We take great pride in understanding the specific needs and desires of our clients, ensuring that each element of your website embodies the essence of your brand and vision.
-            </div>
+            <h2 class="dedicated-title">Dedicated to Your Unique Online Presence</h2>
+            <p class="dedicated-desc">
+              At PattersonMade, I firmly believe that every website should reflect the distinct individuality and personality of its owner. My unwavering commitment to creating custom-built solutions means that your online presence will be as unique and tailored to you as you are. We take great pride in understanding the specific needs and desires of our clients, ensuring that each element of your website embodies the essence of your brand and vision.
+            </p>
           </div>
         </div>
       </div>
