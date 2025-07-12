@@ -15,4 +15,5 @@ import TrustYourVisionSection from '../components/main/TrustYourVisionSection.vu
 import CTA from '../components/CTA.vue';
 import TestimonialSection from '../components/main/TestimonialSection.vue';
 import ExploreThreeTiersSection from '../components/main/ExploreThreeTiersSection.vue';
+import TurnYourVisionSection from '../components/main/TurnYourVisionSection.vue';
 </script>
