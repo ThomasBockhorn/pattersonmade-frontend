@@ -8,18 +8,14 @@
           <div class="cta-desc">You’ve poured your soul into your work — now let’s design a space that reflects it.</div>
         </div>
         <div class="cta-btn-row">
-          <div class="cta-btn">
-            <div class="cta-btn-text">Inquire</div>
-          </div>
+          <button class="cta-btn" type="button">
+            <span class="cta-btn-text">Inquire</span>
+          </button>
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-// No script logic needed for this static CTA section
-</script>
 
 <style scoped>
 .cta-section {
@@ -109,6 +105,19 @@
   align-items: center;
   gap: 8px;
   display: flex;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cta-btn:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.cta-btn:hover {
+  background: #6d1a99;
+}
+.cta-btn:active {
+  background: #3a0850;
 }
 .cta-btn-text {
   color: var(--Color-White, white);

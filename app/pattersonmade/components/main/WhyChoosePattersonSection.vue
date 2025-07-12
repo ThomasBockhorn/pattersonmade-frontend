@@ -25,15 +25,11 @@
             </div>
           </div>
         </div>
-        <img class="why-choose-img" src="/public/img/computerdesk.jpg" alt="An image of a computer on a desk" />
+        <img class="why-choose-img" src="/img/computerdesk.jpg" alt="An image of a computer on a desk" />
       </div>
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-// No script logic needed for this static section
-</script>
 
 <style scoped>
 .why-choose-section {

@@ -7,17 +7,14 @@
         <div class="hero-subtitle">Thoughtful solutions for those building something real</div>
       </div>
       <div class="hero-cta-row">
-        <div class="hero-cta">
-          <div class="hero-cta-text">Begin with PattersonMade</div>
-        </div>
+        <button class="hero-cta" type="button">
+          <span class="hero-cta-text">Begin with PattersonMade</span>
+        </button>
       </div>
     </div>
   </div>
 </div>
 </template>
-
-<script setup lang="ts">
-</script>
 
 <style scoped>
 .hero-section {
@@ -26,7 +23,7 @@
   min-height: 900px;
   padding-left: 64px;
   padding-right: 64px;
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('public/img/HappyPatterson.jpg');
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/img/HappyPatterson.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -80,9 +77,23 @@
   background: #510E72;
   border-radius: 100px;
   outline: 1px #510E72 solid;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  font: inherit;
+}
+.hero-cta:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.hero-cta:hover {
+  background: #6d1a99;
+}
+.hero-cta:active {
+  background: #3a0850;
 }
 .hero-cta-text {
   color: #fff;

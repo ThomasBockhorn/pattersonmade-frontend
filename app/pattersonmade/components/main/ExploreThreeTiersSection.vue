@@ -12,7 +12,7 @@
           <div class="tier-card-title">Toy Tier: Simple Websites with Essential Digital Marketing</div>
           <div class="tier-card-desc">Ideal for those seeking a straightforward online presence.</div>
           <div class="tier-card-action">
-            <button class="tier-link">Learn More <span class="tier-link-arrow"></span></button>
+            <button class="tier-link" type="button">Learn More <span class="tier-link-arrow"></span></button>
           </div>
         </div>
         <div class="tier-card">
@@ -23,7 +23,7 @@
           <div class="tier-card-title">Miniature Tier: Dynamic Websites with Advanced Marketing Strategies</div>
           <div class="tier-card-desc">Perfect for businesses looking to engage and grow their audience.</div>
           <div class="tier-card-action">
-            <button class="tier-link">Learn More <span class="tier-link-arrow"></span></button>
+            <button class="tier-link" type="button">Learn More <span class="tier-link-arrow"></span></button>
           </div>
         </div>
         <div class="tier-card">
@@ -33,7 +33,7 @@
           <div class="tier-card-title">Standard Tier: Comprehensive E-Commerce Solutions for Your Business</div>
           <div class="tier-card-desc">Designed for those ready to sell and scale online.</div>
           <div class="tier-card-action">
-            <button class="tier-link">Learn More <span class="tier-link-arrow"></span></button>
+            <button class="tier-link" type="button">Learn More <span class="tier-link-arrow"></span></button>
           </div>
         </div>
       </div>

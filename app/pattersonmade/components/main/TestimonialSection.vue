@@ -11,7 +11,7 @@
         </div>
         <p class="testimonial-quote">"{{ testimonial.quote }}"</p>
         <div class="testimonial-user">
-          <img :src="testimonial.avatar" alt="" class="testimonial-avatar" />
+          <img :src="testimonial.avatar" :alt="`Avatar of ${testimonial.name}`" class="testimonial-avatar" />
           <div class="testimonial-user-info">
             <div class="testimonial-name">{{ testimonial.name }}</div>
             <div class="testimonial-role">{{ testimonial.role }}</div>

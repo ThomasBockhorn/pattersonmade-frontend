@@ -8,7 +8,7 @@
           <span class="navbar-title-main">PattersonMade<br/></span>
         </div>
       </div>
-      <button class="navbar-toggle" @click="isOpen = !isOpen">
+      <button class="navbar-toggle" @click="isOpen = !isOpen" aria-label="Toggle navigation">
         <span class="navbar-toggle-bar"></span>
         <span class="navbar-toggle-bar"></span>
         <span class="navbar-toggle-bar"></span>

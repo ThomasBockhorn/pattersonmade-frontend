@@ -5,36 +5,37 @@
         <div class="footer-links">
           <div class="footer-links-title">Quick Links</div>
           <div class="footer-links-list">
-            <div class="footer-link">About Us</div>
-            <div class="footer-link">Our Services</div>
-            <div class="footer-link">Contact Us</div>
-            <div class="footer-link">Blog Posts</div>
-            <div class="footer-link">Client Login</div>
+            <a class="footer-link" href="#">About Us</a>
+            <a class="footer-link" href="#">Our Services</a>
+            <a class="footer-link" href="#">Contact Us</a>
+            <a class="footer-link" href="#">Blog Posts</a>
+            <a class="footer-link" href="#">Client Login</a>
           </div>
         </div>
         <div class="footer-social">
           <div class="footer-links-title">Stay Connected</div>
           <div class="footer-links-list">
-            <div class="footer-link">Facebook</div>
-            <div class="footer-link">Instagram</div>
-            <div class="footer-link">LinkedIn</div>
+            <a class="footer-link" href="#">Facebook</a>
+            <a class="footer-link" href="#">Instagram</a>
+            <a class="footer-link" href="#">LinkedIn</a>
           </div>
         </div>
         <div class="footer-newsletter">
           <div class="footer-links-title">Newsletter</div>
           <div class="footer-links-list">
-            <div class="footer-link">Sign Up</div>
-            <div class="footer-link">Latest News</div>
-            <div class="footer-link">Support Center</div>
-            <div class="footer-link">FAQs</div>
-            <div class="footer-link">Feedback</div>
+            <a class="footer-link" href="#">Sign Up</a>
+            <a class="footer-link" href="#">Latest News</a>
+            <a class="footer-link" href="#">Support Center</a>
+            <a class="footer-link" href="#">FAQs</a>
+            <a class="footer-link" href="#">Feedback</a>
           </div>
         </div>
         <div class="footer-subscribe">
           <div class="footer-subscribe-title">Subscribe</div>
           <div class="footer-subscribe-desc">Join our newsletter for updates on features and new releases.</div>
           <div class="footer-subscribe-form">
-            <input class="footer-input" type="email" placeholder="Your Email" />
+            <label for="footer-email" class="visually-hidden">Email address</label>
+            <input id="footer-email" class="footer-input" type="email" placeholder="Your Email" />
             <button class="footer-btn">Subscribe</button>
           </div>
           <div class="footer-subscribe-note">By subscribing, you agree to our Privacy Policy and receive updates.</div>
