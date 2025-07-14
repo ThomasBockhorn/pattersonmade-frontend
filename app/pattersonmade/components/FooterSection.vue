@@ -9,7 +9,7 @@
             <NuxtLink class="footer-link" href="/about">About Us</NuxtLink>
             <NuxtLink class="footer-link" href="/services">Our Services</NuxtLink>
             <a class="footer-link" href="#">Contact Us</a>
-            <NuxtLink class="footer-link" href="#">Blog Posts</NuxtLink>
+            <NuxtLink class="footer-link" href="/blog">Blog Posts</NuxtLink>
             <NuxtLink class="footer-link" href="/portfolio">Portfolio</NuxtLink>
           </div>
         </div>
