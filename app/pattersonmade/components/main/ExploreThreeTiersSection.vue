@@ -107,7 +107,9 @@
   position: absolute;
   left: 8px;
   top: 8px;
-  background: var(--Color-White, white);
+  background: url('/icon/cube.png') no-repeat center center;
+  background-size: contain;
+  filter: brightness(0) invert(1);
   border-radius: 4px;
   box-shadow: none;
   border: none;
@@ -226,6 +228,9 @@
     height: 28px;
     left: 4px;
     top: 4px;
+    background: url('/icon/cube.png') no-repeat center center;
+    background-size: contain;
+    filter: brightness(0) invert(1);
   }
   .tier-link {
     font-size: 14px;
