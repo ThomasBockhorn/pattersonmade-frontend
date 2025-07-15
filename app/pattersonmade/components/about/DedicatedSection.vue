@@ -2,7 +2,7 @@
   <section class="dedicated-section">
     <div class="dedicated-container">
       <div class="dedicated-flex">
-        <img class="dedicated-img" src="https://placehold.co/600x640" alt="Dedicated to your online presence" />
+        <img class="dedicated-img" src="/img/coding.jpg" alt="Dedicated to your online presence" />
         <div class="dedicated-content">
           <div class="dedicated-label-row">
             <span class="dedicated-label">Crafted</span>

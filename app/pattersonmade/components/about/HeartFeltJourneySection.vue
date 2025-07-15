@@ -11,11 +11,11 @@
               The Heartfelt Journey of PattersonMade: Inspired by Loyalty and Passion
             </h2>
             <p class="heartfelt-desc">
-              PattersonMade was born from a deep passion for creating one-of-a-kind digital experiences rooted in the loyalty and inspiration of Patterson, the founder’s beloved dog and constant companion. This creative studio is built on a commitment to designing websites that not only reflect each client’s true essence but also tell their unique story with care and precision. Every project is approached with a blend of authenticity, individuality, and professionalism to ensure it resonates both personally and visually. At PattersonMade, the goal is to elevate brands and build meaningful connections, making each web experience not just functional but genuinely unforgettable.
+              PattersonMade was born from a deep passion for creating one-of-a-kind digital experiences rooted in the loyalty and inspiration of Patterson, my beloved dog and constant companion. This creative studio is built on a commitment to designing websites that not only reflect each client’s true essence but also tell their unique story with care and precision. Every project is approached with a blend of authenticity, individuality, and professionalism to ensure it resonates both personally and visually. At PattersonMade, the goal is to elevate brands and build meaningful connections, making each web experience not just functional but genuinely unforgettable.
             </p>
           </div>
         </div>
-        <img class="heartfelt-img" src="https://placehold.co/600x640" alt="PattersonMade inspiration" />
+        <img class="heartfelt-img" src="/img/Patterson.jpg" alt="PattersonMade inspiration" />
       </div>
     </div>
   </section>
@@ -66,7 +66,7 @@
   position: absolute;
   left: 3.69px;
   top: 5.87px;
-  background: #010605;
+  background: url('/icon/dogpaw.png') center center / contain no-repeat;
   border-radius: 8px;
 }
 .heartfelt-text-group {

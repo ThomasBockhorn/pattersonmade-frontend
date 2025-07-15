@@ -71,7 +71,7 @@
   position: absolute;
   left: 7.03px;
   top: 6.15px;
-  background: #010605;
+  background: url('/icon/gear.png') center center / contain no-repeat;
   border-radius: 12px;
 }
 .crafted-title-group {
