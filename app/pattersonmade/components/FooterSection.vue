@@ -35,7 +35,7 @@
           <div class="footer-subscribe-title">Subscribe</div>
           <div class="footer-subscribe-desc">Join our newsletter for updates on features and new releases.</div>
           <div class="footer-subscribe-form">
-            <div style="position: relative; width: 100%;">
+            <div class="footer-input-wrapper">
               <input id="footer-email" class="footer-input" type="email" placeholder="Your Email" />
               <label for="footer-email" class="footer-input-label">Email address</label>
             </div>
@@ -45,19 +45,18 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div style="height: 0px; outline: 1px var(--Color-White, white) solid; outline-offset: -0.5px"></div>
-        <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; flex-wrap: wrap; gap: 16px 0;">
+        <div class="footer-divider"></div>
+        <div class="footer-bottom-flex">
           <div class="footer-bottom-links">
-            <div>© 2024 PattersonMade. All rights reserved.</div>
+            <div>© 2025 PattersonMade. All rights reserved.</div>
             <div class="footer-bottom-link">Privacy Policy</div>
             <div class="footer-bottom-link">Terms of Use</div>
             <div class="footer-bottom-link">Cookie Settings</div>
           </div>
           <div class="footer-bottom-icons">
-            <div class="footer-icon"></div>
-            <div class="footer-icon"></div>
-            <div class="footer-icon"></div>
-            <div class="footer-icon"></div>
+            <div class="footer-icon footer-icon-facebook"></div>
+            <div class="footer-icon footer-icon-linkedin"></div>
+            <div class="footer-icon footer-icon-instagram"></div>
           </div>
         </div>
       </div>
@@ -103,7 +102,7 @@
   min-width: 120px;
 }
 .footer-links-title {
-  color: var(--Color-White, white);
+  color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 600;
@@ -115,7 +114,7 @@
   gap: 0;
 }
 .footer-link {
-  color: var(--Color-White, white);
+  color: white;
   font-size: 14px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
@@ -130,14 +129,14 @@
   gap: 24px;
 }
 .footer-subscribe-title {
-  color: var(--Color-White, white);
+  color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 600;
   line-height: 24px;
 }
 .footer-subscribe-desc {
-  color: var(--Color-White, white);
+  color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
@@ -153,9 +152,9 @@
   min-width: 0;
   padding: 8px 12px;
   border-radius: 12px;
-  border: 1px solid var(--Color-White, white);
+  border: 1px solid white;
   background: rgba(255,255,255,0.30);
-  color: var(--Color-White, white);
+  color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
   outline: none;
@@ -181,9 +180,9 @@
 .footer-btn {
   padding: 10px 24px;
   border-radius: 100px;
-  border: 1px solid var(--Color-White, white);
+  border: 1px solid white;
   background: rgba(255,255,255,0.30);
-  color: var(--Color-White, white);
+  color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 500;
@@ -195,7 +194,7 @@
   text-align: center;
 }
 .footer-subscribe-note {
-  color: var(--Color-White, white);
+  color: white;
   font-size: 12px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
@@ -211,7 +210,7 @@
   display: flex;
   gap: 24px;
   align-items: center;
-  color: var(--Color-White, white);
+  color: white;
   font-size: 14px;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
@@ -227,8 +226,34 @@
 .footer-icon {
   width: 24px;
   height: 24px;
-  background: var(--Color-White, white);
+  background: white;
   border-radius: 4px;
+}
+.footer-icon-facebook {
+  background: url('/icon/facebook.png') center center / contain no-repeat, white;
+}
+.footer-icon-linkedin {
+  background: url('/icon/linkedin.png') center center / contain no-repeat, white;
+}
+.footer-icon-instagram {
+  background: url('/icon/instagram.png') center center / contain no-repeat, white;
+}
+.footer-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+.footer-divider {
+  height: 0px;
+  outline: 1px white solid;
+  outline-offset: -0.5px;
+}
+.footer-bottom-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 16px 0;
 }
 @media (max-width: 1024px) {
   .footer-main {
