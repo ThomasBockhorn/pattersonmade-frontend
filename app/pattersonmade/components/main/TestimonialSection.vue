@@ -7,7 +7,7 @@
     <div class="testimonial-carousel">
       <div class="testimonial-card" v-for="(testimonial, idx) in testimonials" :key="testimonial.name">
         <div class="testimonial-stars">
-          <span v-for="n in 5" :key="n" class="star"></span>
+          <span v-for="n in testimonial.stars" :key="n" class="star"></span>
         </div>
         <p class="testimonial-quote">"{{ testimonial.quote }}"</p>
         <div class="testimonial-user">
@@ -37,18 +37,21 @@ const testimonials = [
     quote: 'The attention to detail was remarkable and refreshing.',
     name: 'Emily Johnson',
     role: 'Founder, Artistry Co.',
+    stars: 5,
     avatar: 'https://placehold.co/48x48',
   },
   {
     quote: 'Working with PattersonMade was a game changer for us.',
     name: 'Michael Smith',
     role: 'CEO, Tech Innovations',
+    stars: 4,
     avatar: 'https://placehold.co/48x48',
   },
   {
     quote: 'Their support was invaluable throughout the entire process.',
     name: 'Sarah Lee',
     role: 'Owner, Cozy Cafe',
+    stars: 6,
     avatar: 'https://placehold.co/48x48',
   },
 ];
@@ -120,7 +123,7 @@ const testimonials = [
 .star {
   width: 20px;
   height: 18.89px;
-  background: var(--Color-Scheme-1-Text, #010605);
+  background: url('/icon/star.png') center center / contain no-repeat;
   display: inline-block;
   border-radius: 4px;
 }
