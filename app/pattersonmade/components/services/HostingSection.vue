@@ -4,8 +4,8 @@
       <div class="hosting-section__content">
         <img
           class="hosting-section__image"
-          src="https://placehold.co/600x640"
-          alt="Hosting Environment Example"
+          src="/img/servers.jpg"
+          alt="Website hosting"
         />
         <div class="hosting-section__text">
           <div class="hosting-section__text-inner">

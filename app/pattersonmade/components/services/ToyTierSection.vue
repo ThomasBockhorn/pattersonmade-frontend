@@ -2,7 +2,7 @@
   <section class="toy-tier-section">
     <div class="toy-tier-container">
       <div class="toy-tier-flex">
-        <img class="toy-tier-img" src="/img/toypoodle.jpg" alt="Toy Tier website example" />
+        <img class="toy-tier-img" src="/img/toypoodle2.jpg" alt="Toy Tier website example" />
         <div class="toy-tier-content">
           <div class="toy-tier-content-group">
             <div class="toy-tier-label-row">
@@ -115,41 +115,14 @@
   gap: 16px;
 }
 .toy-tier-feature-icon {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('/icon/checkmark.png') center center / contain no-repeat;
 }
-.toy-tier-feature-icon1::before {
-  content: '';
-  position: absolute;
-  left: 1.31px;
-  top: 2.56px;
-  width: 13.39px;
-  height: 10.87px;
-  background: #010605;
-  border-radius: 2px;
-}
-.toy-tier-feature-icon2::before {
-  content: '';
-  position: absolute;
-  left: 1.23px;
-  top: 1.14px;
-  width: 13.54px;
-  height: 12.96px;
-  background: #010605;
-  border-radius: 2px;
-}
-.toy-tier-feature-icon3::before {
-  content: '';
-  position: absolute;
-  left: 1.90px;
-  top: 1.08px;
-  width: 12.20px;
-  height: 13.85px;
-  background: #010605;
-  border-radius: 2px;
-}
+
 .toy-tier-feature-text {
   flex: 1 1 0;
   color: #010605;

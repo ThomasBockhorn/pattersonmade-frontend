@@ -18,7 +18,7 @@
 .services-header-section {
   align-self: stretch;
   padding: 112px 64px;
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('https://placehold.co/1440x382');
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/img/laptop.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;

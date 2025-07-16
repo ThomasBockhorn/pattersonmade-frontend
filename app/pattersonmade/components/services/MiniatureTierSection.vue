@@ -12,28 +12,22 @@
           </div>
           <ul class="miniature-tier-features" aria-label="Miniature Tier Features">
             <li>
-              <span class="miniature-tier-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2" fill="#010605"/></svg>
-              </span>
+              <span class="miniature-tier-icon"></span>
               <span>5-page website with a stunning portfolio and blog</span>
             </li>
             <li>
-              <span class="miniature-tier-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" fill="#010605"/></svg>
-              </span>
+              <span class="miniature-tier-icon"></span>
               <span>Tailored design that reflects your personal style</span>
             </li>
             <li>
-              <span class="miniature-tier-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="4" fill="#010605"/></svg>
-              </span>
+              <span class="miniature-tier-icon"></span>
               <span>Enhanced digital marketing for growing your audience</span>
             </li>
           </ul>
         </div>
         <img
           class="miniature-tier-image"
-          src="/img/miniaturepoodle.jpg"
+          src="/img/minipoodle2.jpg"
           alt="Miniature Tier website preview"
         />
       </div>
@@ -145,6 +139,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url('/icon/checkmark.png') center center / contain no-repeat;
 }
 
 @media (max-width: 1024px) {

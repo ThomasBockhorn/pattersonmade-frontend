@@ -23,21 +23,15 @@
           </div>
           <ul class="standard-tier-section__features" aria-label="Standard Tier Features">
             <li class="standard-tier-section__feature">
-              <span class="standard-tier-section__icon" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="0.69" y="2.58" width="14.5" height="12.85" rx="2" fill="#010605"/></svg>
-              </span>
+              <span class="standard-tier-section__icon" aria-hidden="true"></span>
               <span>Full-featured e-commerce website for your growing business.</span>
             </li>
             <li class="standard-tier-section__feature">
-              <span class="standard-tier-section__icon" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1.9" y="1.9" width="12.2" height="12.2" rx="2" fill="#010605"/></svg>
-              </span>
+              <span class="standard-tier-section__icon" aria-hidden="true"></span>
               <span>Complete digital marketing package to drive results.</span>
             </li>
             <li class="standard-tier-section__feature">
-              <span class="standard-tier-section__icon" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1.24" y="1.91" width="13.52" height="12.18" rx="2" fill="#010605"/></svg>
-              </span>
+              <span class="standard-tier-section__icon" aria-hidden="true"></span>
               <span>Product setup and conversion optimization for success.</span>
             </li>
           </ul>
@@ -166,11 +160,12 @@
 }
 
 .standard-tier-section__icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url('/icon/checkmark.png') center center / contain no-repeat;
 }
 
 @media (max-width: 1024px) {
