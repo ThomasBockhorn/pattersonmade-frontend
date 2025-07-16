@@ -9,6 +9,6 @@ describe('FooterSection', () => {
   });
   it('renders the copyright', () => {
     const wrapper = mount(FooterSection);
-    expect(wrapper.html()).toContain('© 2024 PattersonMade. All rights reserved.');
+    expect(wrapper.html()).toContain('© 2025 PattersonMade. All rights reserved.');
   });
 });
