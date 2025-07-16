@@ -33,7 +33,7 @@
         </div>
         <img
           class="miniature-tier-image"
-          src="https://placehold.co/600x640"
+          src="/img/miniaturepoodle.jpg"
           alt="Miniature Tier website preview"
         />
       </div>

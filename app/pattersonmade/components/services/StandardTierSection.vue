@@ -4,7 +4,7 @@
       <div class="standard-tier-section__content">
         <img
           class="standard-tier-section__image"
-          src="https://placehold.co/600x640"
+          src="/img/standardpoodle.jpg"
           alt="Standard Tier Example"
         />
         <div class="standard-tier-section__text">
@@ -85,8 +85,10 @@
   height: 640px;
   border-radius: 40px;
   object-fit: cover;
+  object-position: center 30%;
   width: 100%;
   max-width: 600px;
+  margin-top: 40px;
 }
 
 .standard-tier-section__text {

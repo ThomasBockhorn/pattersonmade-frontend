@@ -2,7 +2,7 @@
   <section class="toy-tier-section">
     <div class="toy-tier-container">
       <div class="toy-tier-flex">
-        <img class="toy-tier-img" src="https://placehold.co/600x640" alt="Toy Tier website example" />
+        <img class="toy-tier-img" src="/img/toypoodle.jpg" alt="Toy Tier website example" />
         <div class="toy-tier-content">
           <div class="toy-tier-content-group">
             <div class="toy-tier-label-row">
