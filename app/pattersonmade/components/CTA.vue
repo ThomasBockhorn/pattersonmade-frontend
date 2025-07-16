@@ -71,7 +71,7 @@
 }
 .cta-title {
   align-self: stretch;
-  color: var(--Color-White, white);
+  color: white;
   font-size: 48px;
   font-family: Encode Sans;
   font-weight: 400;
@@ -80,7 +80,7 @@
 }
 .cta-desc {
   align-self: stretch;
-  color: var(--Color-White, white);
+  color: white;
   font-size: 18px;
   font-family: Source Sans 3;
   font-weight: 400;
@@ -98,9 +98,9 @@
   padding-right: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: var(--Color-Persian-Indigo, #510E72);
+  background: #F97316;
   border-radius: 100px;
-  outline: 1px var(--Color-Persian-Indigo, #510E72) solid;
+  outline: 1px #F97316 solid;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -114,10 +114,10 @@
   outline-offset: 2px;
 }
 .cta-btn:hover {
-  background: #6d1a99;
+  background: #EA580C;
 }
 .cta-btn:active {
-  background: #3a0850;
+  background: #EA580C;
 }
 .cta-btn-text {
   color: var(--Color-White, white);

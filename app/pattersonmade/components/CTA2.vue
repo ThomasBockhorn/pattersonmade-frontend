@@ -43,7 +43,7 @@
 .cta2-bg {
   align-self: stretch;
   padding: 64px;
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('https://placehold.co/1280x313');
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/img/keyboard.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 40px;
@@ -96,9 +96,9 @@
 }
 .cta2-btn {
   padding: 10px 24px;
-  background: #510E72;
+  background: #F97316;
   border-radius: 100px;
-  outline: 1px #510E72 solid;
+  outline: 1px #F97316 solid;
   color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
@@ -109,7 +109,7 @@
   transition: background 0.2s;
 }
 .cta2-btn:hover {
-  background: #3a0852;
+  background: #EA580C;
 }
 @media (max-width: 900px) {
   .cta2-section {

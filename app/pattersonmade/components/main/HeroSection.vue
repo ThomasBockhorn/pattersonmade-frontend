@@ -74,9 +74,9 @@
 }
 .hero-cta {
   padding: 10px 24px;
-  background: #510E72;
+  background: #F97316;
   border-radius: 100px;
-  outline: 1px #510E72 solid;
+  outline: 1px #F97316 solid;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -90,10 +90,10 @@
   outline-offset: 2px;
 }
 .hero-cta:hover {
-  background: #6d1a99;
+  background: #EA580C;
 }
 .hero-cta:active {
-  background: #3a0850;
+  background: #EA580C;
 }
 .hero-cta-text {
   color: #fff;

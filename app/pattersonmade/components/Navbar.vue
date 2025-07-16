@@ -15,7 +15,7 @@
       </button>
       <div :class="['navbar-links', { open: isOpen }]">
         <NuxtLink href="/" class="navbar-link" @click="closeMenuOnMobile">Home Page</NuxtLink>
-        <NuxtLink href="/about" class="navbar-link" @click="closeMenuOnMobile">About Us</NuxtLink>
+        <NuxtLink href="/about" class="navbar-link" @click="closeMenuOnMobile">About</NuxtLink>
         <NuxtLink href="/portfolio" class="navbar-link" @click="closeMenuOnMobile">Portfolio</NuxtLink>
         <NuxtLink href="/services" class="navbar-link" @click="closeMenuOnMobile">Services</NuxtLink>
         <NuxtLink href="/blog" class="navbar-link" @click="closeMenuOnMobile">Blog</NuxtLink>
@@ -96,9 +96,9 @@ function closeMenuOnMobile(e: Event) {
 }
 .navbar-inquire {
   padding: 8px 20px;
-  background: var(--Color-Persian-Indigo, #510E72);
+  background: #F97316;
   border-radius: 100px;
-  outline: 1px var(--Color-Persian-Indigo, #510E72) solid;
+  outline: 1px #F97316 solid;
   color: var(--Color-White, white);
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
@@ -109,6 +109,9 @@ function closeMenuOnMobile(e: Event) {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.navbar-inquire:hover {
+  background: #EA580C;
 }
 .navbar-toggle {
   display: none;

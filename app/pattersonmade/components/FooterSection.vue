@@ -180,8 +180,8 @@
 .footer-btn {
   padding: 10px 24px;
   border-radius: 100px;
-  border: 1px solid white;
-  background: rgba(255,255,255,0.30);
+  border: 1px solid #F97316;
+  background: #F97316;
   color: white;
   font-size: 16px;
   font-family: 'Source Sans 3', sans-serif;
@@ -192,6 +192,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.footer-btn:hover {
+  background: #EA580C;
 }
 .footer-subscribe-note {
   color: white;
