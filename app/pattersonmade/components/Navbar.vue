@@ -14,11 +14,12 @@
         <span class="navbar-toggle-bar"></span>
       </button>
       <div :class="['navbar-links', { open: isOpen }]">
-        <NuxtLink href="/" class="navbar-link" @click="closeMenuOnMobile">Home Page</NuxtLink>
+        <NuxtLink href="/" class="navbar-link" @click="closeMenuOnMobile">Home</NuxtLink>
         <NuxtLink href="/about" class="navbar-link" @click="closeMenuOnMobile">About</NuxtLink>
         <NuxtLink href="/portfolio" class="navbar-link" @click="closeMenuOnMobile">Portfolio</NuxtLink>
         <NuxtLink href="/services" class="navbar-link" @click="closeMenuOnMobile">Services</NuxtLink>
         <NuxtLink href="/blog" class="navbar-link" @click="closeMenuOnMobile">Blog</NuxtLink>
+        <NuxtLink href="/contact" class="navbar-link" @click="closeMenuOnMobile">Contact</NuxtLink>
         <a href="#" class="navbar-inquire" @click="closeMenuOnMobile">Inquire</a>
       </div>
     </div>
