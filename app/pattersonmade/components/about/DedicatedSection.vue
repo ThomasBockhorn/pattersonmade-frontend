@@ -10,7 +10,7 @@
           <div class="dedicated-text-group">
             <h2 class="dedicated-title">Dedicated to Your Unique Online Presence</h2>
             <p class="dedicated-desc">
-              At PattersonMade, I firmly believe that every website should reflect the distinct individuality and personality of its owner. My unwavering commitment to creating custom-built solutions means that your online presence will be as unique and tailored to you as you are. We take great pride in understanding the specific needs and desires of our clients, ensuring that each element of your website embodies the essence of your brand and vision.
+              At PattersonMade, I firmly believe that every website should reflect the distinct individuality and personality of its owner. My unwavering commitment to creating custom-built solutions means that your online presence will be as unique and tailored to you as you are. I take great pride in understanding the specific needs and desires of our clients, ensuring that each element of your website embodies the essence of your brand and vision.
             </p>
           </div>
         </div>
