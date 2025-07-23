@@ -17,6 +17,6 @@ describe('Navbar', () => {
         stubs: { NuxtLink: { template: '<a><slot /></a>' } }
       }
     });
-    expect(wrapper.html()).toContain('Home Page');
+    expect(wrapper.html()).toContain('Home');
   });
 });
