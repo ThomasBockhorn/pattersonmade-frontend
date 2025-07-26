@@ -6,5 +6,8 @@ export default defineContentConfig({
       type: 'page',
       source: '**/*.md'
     })
+  },
+  markdown:{
+    anchorLinks: false
   }
 })
