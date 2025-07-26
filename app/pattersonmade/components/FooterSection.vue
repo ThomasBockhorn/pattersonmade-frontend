@@ -50,7 +50,7 @@
           <div class="footer-bottom-links">
             <div>© 2025 PattersonMade. All rights reserved.</div>
             <NuxtLink href="/privacy" class="footer-link">Privacy Policy</NuxtLink>
-            <div class="footer-bottom-link">Terms of Use</div>
+            <NuxtLink href="/terms"class="footer-link">Terms of Use</NuxtLink>
             <div class="footer-bottom-link">Cookie Settings</div>
           </div>
           <div class="footer-bottom-icons">
